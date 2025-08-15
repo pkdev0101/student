@@ -1,12 +1,16 @@
 ---
 layout: base
-title: I'm [Your Full Name]
+title: I'm [Pranay Kamath]
 hide: true
 ---
 
+<<<<<<< HEAD
+Hi! My name is [Pranay Kamath]
+=======
 ### Me and Team
+>>>>>>> 88d85876cd6768a598b02407651397a8d1dba798
 
-Hi! My name is [Your Full Name].
+Hi! My name is [Pranay Kamath].
 
 | Role         | Name     | Repo Location                       | Stream                | Repo Name |
 |--------------|----------|-------------------------------------|-----------------------|-----------|
