@@ -33,7 +33,7 @@ Hi! My name is Pranay Kamath.
     KASM
 </a>
 <a href="https://vscode.dev/" class="button small" style="background-color: #d38a4bff">
-    <span style="color: #FFFFFF">VSCODE</span>
+    <span style="color: #FFFFFF">VSCODE</span> 
 </a>
 
 <br>
