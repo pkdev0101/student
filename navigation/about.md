@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About
+title: About Pranay Kamath
 permalink: /about/
 comments: true
 ---
