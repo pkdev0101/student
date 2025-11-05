@@ -1,0 +1,61 @@
+### Blog Reflection
+---
+layout: post
+toc: True
+title: CSSE Final Blog Reflection
+description: My final reflection on Sprint 1
+permalink: /csse/blogs
+author: Pranay Kamath
+---
+
+### Sprint 1 – Onboarding Challenge
+---
+
+## Task Overview
+Sprint 1 was about setting up my personal development environment and learning how to manage code and workflows as a Learning Experience Designer. The main focus was on **VSCode**, **GitHub**, **Make**, and Linux commands to get my GitHub Pages site running.
+
+## What I Actually Did
+I started by creating my personal workspace:
+- Used `mkdir -p <USERNAME>` to create a personal directory.
+- Cloned the student repository using `git clone https://github.com/<USERNAME>/student.git`.
+- Ran `./scripts/activate.sh` to configure GitHub credentials.
+- Set up and activated a Python virtual environment with `./scripts/venv.sh` and `venv`.
+
+Next, I installed all dependencies:
+```bash
+pip install -r requirements.txt
+gem install faraday-retry
+```
+I had to debug multiple issues along the way, such as missing packages and misconfigured environment variables. Running Make commands like `make serve-minema` allowed me to serve the site locally and test changes before pushing.
+
+I also practiced committing and pushing code to GitHub:
+```bash
+git add .
+git commit -m "Setup initial project"
+git push origin main
+```
+Watching GitHub Actions trigger automatically and seeing my changes live on GitHub Pages was a key part of the experience.
+
+## Challenges I Faced
+- Make commands sometimes failed due to missing dependencies.
+- Activating virtual environments in Kasm/Linux required troubleshooting.
+- Ensuring the GitHub Pages site published correctly after multiple commits.
+
+## What I Learned
+- How to create directories and organize projects using Linux commands.
+- How to clone and manage GitHub repositories effectively.
+- How to run and debug Make commands for automation.
+- How to configure and activate Python virtual environments.
+- How GitHub Actions work to deploy GitHub Pages automatically.
+- How to systematically troubleshoot errors and document solutions.
+
+## My Favorite Part
+Getting my site online and fully functional was very satisfying. Every bug I fixed and command I ran made me feel more confident in managing my own development environment.
+
+## Overall Reflection
+
+Sprint 1 taught me that a big part of coding is understanding the setup and tools. Running commands, troubleshooting, and managing repositories were all valuable skills I can build on. In the next sprint, I want to keep improving my workflow and start working on more complex projects with my personal GitHub Pages setup fully established.
+
+
+
+
